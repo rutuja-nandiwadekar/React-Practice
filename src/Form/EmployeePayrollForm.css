@@ -43,7 +43,6 @@ header img {
   color: #42515f;
 }
 
-/* uc2 */
 .form-content {
   min-height: calc(100% - 80px);
   background-color: #f7f7f7;
@@ -103,7 +102,6 @@ label {
   resize: vertical;
 }
 
-/* UC3 */
 .profile-radio-content {
   display: flex;
   flex-direction: row;
@@ -121,7 +119,6 @@ label {
   margin-left: 12px;
 }
 
-/* uc5 */
 select {
   padding: 12px;
   border: 1px solid #ccc;
@@ -133,7 +130,6 @@ select {
 
 }
 
-/* UC 6 */
 .buttonParent {
   display: flex;
   margin-bottom: 10px;

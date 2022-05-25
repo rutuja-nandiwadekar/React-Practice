@@ -126,15 +126,15 @@ export default function EmployeePayrollForm() {
 
         {/* SALARY */}
         <div class="row-content">
-          <label class="label text" for="salary">Choose your salary </label>
+          <label class="label text" for="salary">Salary </label>
           <Box sx={{ minWidth: 240 }}>
             <FormControl fullWidth>
-              <InputLabel id="demo-simple-select-label">Salary</InputLabel>
+              <InputLabel id="demo-simple-select-label"> Select Salary</InputLabel>
               <Select
                 labelId="demo-simple-select-label"
                 id="demo-simple-select"
                 value={salary}
-                label="Select Salary"
+                label="salary"
                 onChange={handleChange}
               >
                 <MenuItem value={1000000}>1000000</MenuItem>
